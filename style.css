@@ -13,27 +13,27 @@
   height: 300px;
   width: 200px;
   background-color: blue;
-  display: inline-block;
-  vertical-align: top;
+  margin-right: 15px;
 }
 .main {
-  display: inline-block;
   height: 400px;
   width: 700px;
   background-color: red;
-  padding: 12px;
-  margin-left: 20px;
+  padding: 20px;
 }
 .sub-content {
-  margin-right: 8px;
-  margin-bottom: 18px;
-  display: inline-block;
   height: 200px;
   width: 210px;
   background-color: yellow;
+  margin-bottom: 25px;
+  margin-right: 13px;
 }
 #advertisement {
   height: 120px;
   width: 660px;
   background-color: purple;
+}
+.row {
+  /* TODO - what should go here? */
+  display: flex;
 }
